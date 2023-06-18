@@ -95,7 +95,7 @@ class Ui_MainWindow(object):
         print(predictions[0][0])
         self.label_persnt.setText(prediction_description)
 
-        if predictions[0][0] > 0.5:
+        if predictions[0][0] > 0.4:
             self.label_3.setText('Участок повышенной пожароопасности')
         else:
             self.label_3.setText('Безопасный участок')
