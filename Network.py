@@ -12,7 +12,7 @@ test_dir = 'test'
 img_width, img_height = 750, 500
 input_shape = (img_width, img_height, 3)
 
-epochs = 2
+epochs = 5
 batch_size = 2
 
 nb_train_samples = 160
